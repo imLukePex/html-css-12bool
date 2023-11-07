@@ -13,9 +13,7 @@
     color: #ffff;
 }
 
-[class*="nested-"] {
+.nested {
     background-color: #00e165;
-    border: 1px solid #006cfa;
     min-height: 50px;
-    color: #ffff;
 }
