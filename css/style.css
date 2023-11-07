@@ -6,6 +6,11 @@
 }
 
 /* DEBUG */
+
+h2 {
+    margin-top: 20px;
+}
+
 .blue-content {
     background-color: #006cfa;
     min-height: 100px;
@@ -16,11 +21,6 @@
     border: 1px solid #ffff;
 }
 
-.nested-container {
-    width: 95%;
-    margin: 0 auto;
-}
-
 .green-content {
     background-color: #00e165;
     min-height: 50px;
@@ -29,4 +29,18 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #006cfa;
+}
+
+.blue-row {
+    background-color: #006cfa;
+    min-height: 100px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffff;
+    padding: 25px;
+}
+
+.vspace {
+    margin-top: 30px;
 }
