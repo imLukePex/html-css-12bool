@@ -1,0 +1,21 @@
+/* Stili Generali */
+:root {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* DEBUG */
+[class*="col-"] {
+    background-color: #006cfa;
+    border: 1px solid #ffff;
+    min-height: 100px;
+    color: #ffff;
+}
+
+[class*="nested-"] {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    min-height: 50px;
+    color: #ffff;
+}
