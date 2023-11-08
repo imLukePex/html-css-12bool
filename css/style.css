@@ -44,3 +44,41 @@ h2 {
 .vspace {
     margin-top: 30px;
 }
+
+.xl {
+    background-color: #006cfa;
+    min-height: 200px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffff;
+}
+
+.middle {
+    align-items: center;
+}
+
+.end {
+    align-items: flex-end;
+}
+
+.around {
+    background-color: #006cfa;
+    min-height: 100px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ffff;
+    padding: 25px;
+}
+
+.between {
+    background-color: #006cfa;
+    min-height: 100px;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ffff;
+    padding: 25px;
+}
